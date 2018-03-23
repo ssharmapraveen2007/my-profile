@@ -1,0 +1,88 @@
+a, a:hover{text-decoration: none !important;}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.title{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+.box{
+  /*background-color:#fff;*/
+  border-radius:8px;
+  padding:16px;
+  /*box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);*/
+}
+.float{display:inline-block; vertical-align:middle;}
+.shadow{box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);}
+.btn-block{margin:36px 0;}
+.btn-filled{
+  border-radius: 4px;
+  background-color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  color: #ffffff;
+  text-transform:uppercase;
+  padding:10px 24px;
+  display:inline-block;
+}
+.section-title{
+  font-weight:600;
+  letter-spacing:6px;
+  color:#3e5561;
+  font-size:48px;
+  text-transform:uppercase;
+  position:relative;
+  display:inline-block;
+  padding: 24px 24px 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+.section-title:after{
+  content:'';
+  width:60%;
+  height:3px;
+  background:#9cadb5;
+  position:absolute;
+  bottom:0px;
+  left:24px;
+}
+.section-text{
+  padding:24px;
+  font-size:18px;
+  margin-top:24px;
+  font-weight:200;
+  color:#637e8c;
+  letter-spacing:2px;
+  position:relative;
+  line-height:1.43;
+}
+@media all and (max-width: 768px){
+  .section-title{font-size:24px !important;}
+  .section-text{font-size:16px !important;}
+}

@@ -1,0 +1,27 @@
+.sub-box{
+	width:80%;
+	margin:5% auto;
+	background:#fff;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+	padding:24px;
+}
+.transform-div{transform:rotate(-90deg) translate(-45px, -90px);}
+.text-underline{
+	width:60%;
+	height:1px;
+	background:rgba(0, 191, 165, 0.9);
+	position:absolute;
+	left:10%;
+	bottom:0;
+}
+.section-text{
+	padding:24px;
+	font-size:18px;
+	margin-top:24px;
+	font-weight:200;
+	color:#637e8c;
+	letter-spacing:2px;
+	position:relative;
+	line-height:1.43;
+}
+.section-text-block{width:100%;}

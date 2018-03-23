@@ -1,0 +1,7 @@
+button > div > div, button > div > div > span{
+	background-color: #000 !important;
+    padding: 6px 48px;
+    border-radius: 4px !important;
+    overflow: hidden;
+    height: 48px !important;
+}
