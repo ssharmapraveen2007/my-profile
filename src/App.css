@@ -96,6 +96,6 @@ h2{
   line-height:1.43;
 }
 @media all and (max-width: 768px){
-  .section-title{font-size:24px !important;}
-  .section-text{font-size:16px !important; padding: 24px 0px !important;}
+  .section-title{font-size:24px !important; padding: 24px 16px 16px;}
+  .section-text{font-size:16px !important; padding: 24px 16px !important;}
 }
