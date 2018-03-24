@@ -7,13 +7,13 @@
 	background-color: #000 !important;
 	background-image: none !important;
 }
-.navbar-nav{margin-top: 7px !important; margin-left: 64px !important;}
+.navbar-nav{margin-top: 7px !important; margin-left: 64px !important; float: right !important;}
 .navbar-nav > li > a, .navbar-nav > li > a > a{
 	color: #fff !important;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
+	font-weight: 300 !important;
 	font-size: 14px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 	opacity: 0.8;
 }

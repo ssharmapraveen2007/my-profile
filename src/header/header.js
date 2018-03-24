@@ -19,16 +19,19 @@ class Header extends React.Component {
                   <Link to="/about">About Me</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="/work">Work & Experience</Link>
+                  <Link to="/skill">Skills</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="/education">Education & Qualifications</Link>
+                  <Link to="/work">Work</Link>
+                </NavItem>
+                <NavItem>
+                  <Link to="/education">Education</Link>
                 </NavItem>
                 <NavItem>
                   <Link to="/gallery">Gallery</Link>
                 </NavItem>
                 <NavItem>
-                  <Link to="/contact">Contact Us</Link>
+                  <Link to="/contact">Contact Me</Link>
                 </NavItem>
               </Nav>
             </Navbar.Collapse>
