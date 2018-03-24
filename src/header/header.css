@@ -41,5 +41,5 @@
 	.navbar > .container .navbar-brand{margin-bottom: 8px;}
 	.navbar-toggle{margin-top: 15px !important;}
 	.navbar > .container .navbar-brand{ margin-left: 15px;}
-	.navbar-nav{margin-left: 15px !important;}
+	.navbar-nav{margin-left: 15px !important; float: left !important;}
 }
