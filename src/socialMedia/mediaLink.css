@@ -1,0 +1,29 @@
+.social-media-block{
+	margin-top:48px;
+}
+.social-media-block ul{padding:0;}
+.social-media-block ul li{display:inline-block; vertical-align:middle;}
+.social-media-block ul li+li{margin-left:16px;}
+.social-media-block ul li a .icon{
+	background:#d8dae1;
+	width:48px;
+	height:48px;
+	border-radius:48px;
+	text-align:center;
+	line-height:48px;
+	font-size:18px;
+	display:inline-block;
+	color:#3e5561;
+}
+.social-media-block ul li a:hover .icon{
+	background:#000;
+	color: #fff;
+}
+@media all and (max-width: 768px){
+	.social-media-block ul li a .icon{
+		width:40px;
+		height:40px;
+		border-radius:40px;
+		line-height:40px;
+	}
+}

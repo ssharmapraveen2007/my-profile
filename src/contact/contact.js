@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './contact.css';
 import Form from './form';
+import Address from './contact-address';
 
 
 class Contact extends React.Component {
@@ -12,9 +13,16 @@ class Contact extends React.Component {
 						<div className="section-title">
 			            	Contact
 		            	</div>
-		            	<div className="section-text-block">
+		            	<div className="col-md-12 section-text-block">
 				        	<div className="section-text" style={{position:'relative'}}>
-				        		<Form />
+				        		<div className="row">
+				        			<div className="col-md-6">
+				        				<Form />
+				        			</div>
+				        			<div className="col-md-6 mobile-top-space">
+				        				<Address />
+				        			</div>
+				        		</div>
 				        	</div>
 			        	</div>
 					</div>

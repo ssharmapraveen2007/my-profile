@@ -5,3 +5,11 @@ button > div > div, button > div > div > span{
     overflow: hidden;
     height: 48px !important;
 }
+a{
+	font-weight: 600 !important;
+	color: #637e8c !important;
+}
+
+@media all and (max-width: 768px){
+	.mobile-top-space{padding-top: 16px;}
+}
