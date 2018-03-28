@@ -1,6 +1,5 @@
 import React from 'react';
 import './skill.css';
-import ProgressBar from 'react-bootstrap';
 
 
 class Skill extends React.Component {
@@ -22,14 +21,18 @@ class Skill extends React.Component {
 			    			<div className="col-md-4" style={{textAlign:'center'}}>
 			    				<span className="skill-icon"><i className="fa fa-code"></i></span>
 			    				<h2 style={{fontWeight:'400'}}>Development &<br/><span style={{fontWeight:'600'}}>Animation</span></h2>
+			    				<p>Code versioning tool GIT, React JS, Python, JINJA2, Bootstarp3, CSS3, Media query, HTML5, JavaScript,
+			    				Jquery, Ajax, MySQL DB and Json</p>
 			    			</div>
 			    			<div className="col-md-4" style={{textAlign:'center'}}>
 			    				<span className="skill-icon"><i className="fa fa-desktop"></i></span>
 			    				<h2 style={{fontWeight:'400'}}>Vector<br/><span style={{fontWeight:'600'}}>Design</span></h2>
+			    				<p>Adobe Photoshop, Adobe Illustrator and MS Paint</p>
 			    			</div>
 			    			<div className="col-md-4" style={{textAlign:'center'}}>
 			    				<span className="skill-icon"><i className="fa fa-users"></i></span>
 			    				<h2 style={{fontWeight:'400'}}>Team<br/><span style={{fontWeight:'600'}}>Handling</span></h2>
+			    				<p>A team leader is someone who provide a guidance, instruction, direction and leadership to a group of other individuals (the team) for the purpose of achieving a key result or group of aligned results.</p>
 			    			</div>
 			    		</div>
 			    	</div>
