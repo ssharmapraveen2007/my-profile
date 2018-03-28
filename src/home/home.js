@@ -12,9 +12,6 @@ class Home extends React.Component {
       			<div className="container">
 	            	<div className="box" style={{margin:'3% 0'}}>
 	                	<div className="row">
-	                    	<div className="float image-wrapper">
-	                        	<img src={me} alt="My selfie" />
-	                        </div>
 	                    	<div className="float text-wrapper">
 	                        	<div className="tex-box">
 	                            	<div className="logo-text">Praveen Kumar</div>
@@ -26,6 +23,9 @@ class Home extends React.Component {
 	                            <div>
 	                            	<SocialMediaLink />
 	                            </div>
+	                        </div>
+	                    	<div className="float image-wrapper">
+	                        	<img src={me} alt="My selfie" />
 	                        </div>
 	                    </div>
 	                </div>

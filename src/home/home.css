@@ -43,7 +43,7 @@
 .image-wrapper{
 	width: 300px;
 	margin: 10% 0;
-	display:none;
+	display:none !important;
 }
 .text-wrapper{
 	padding: 24px 0px;
