@@ -5,6 +5,7 @@ button > div > div, button > div > div > span{
     overflow: hidden;
     height: 48px !important;
 }
+button{height: auto !important;}
 a{
 	font-weight: 600 !important;
 	color: #637e8c !important;
