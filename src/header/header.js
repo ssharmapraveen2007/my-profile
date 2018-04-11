@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css';
-import { Navbar, Nav, ul, li } from 'react-bootstrap';
+import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 class Header extends React.Component {
@@ -14,26 +14,26 @@ class Header extends React.Component {
               <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
-              <ul className="nav navbar-nav">
-                <li>
+              <Nav>
+                <NavItem>
                   <Link to="/about">About Me</Link>
-                </li>
-                <li>
+                </NavItem>
+                <NavItem>
                   <Link to="/skill">Skills</Link>
-                </li>
-                <li>
+                </NavItem>
+                <NavItem>
                   <Link to="/work">Work</Link>
-                </li>
-                <li>
+                </NavItem>
+                <NavItem>
                   <Link to="/education">Education</Link>
-                </li>
-                <li>
+                </NavItem>
+                <NavItem>
                   <Link to="/gallery">Gallery</Link>
-                </li>
-                <li>
+                </NavItem>
+                <NavItem>
                   <Link to="/contact">Contact Me</Link>
-                </li>
-              </ul>
+                </NavItem>
+              </Nav>
             </Navbar.Collapse>
           </Navbar>
       );
