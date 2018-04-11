@@ -18,7 +18,7 @@ class Education extends React.Component {
                                     <div className="col-md-12">
                                           <div className="section-text-block">
                                                 <div style={{display:'inline-block', width:'100%'}}>
-                                                      <div className="float year-detail" style={{verticalAlign:'top'}}>
+                                                      <div className="float year-detail year-detail2" style={{verticalAlign:'top'}}>
                                                             <div className="section-text sec-text-hd">
                                                                   <div className="title-year">
                                                                         MCA
@@ -46,7 +46,7 @@ class Education extends React.Component {
                                                       </div>
                                                 </div>
                                                 <div style={{display:'inline-block', width:'100%'}}>
-                                                      <div className="float year-detail" style={{verticalAlign:'top'}}>
+                                                      <div className="float year-detail year-detail2" style={{verticalAlign:'top'}}>
                                                             <div className="section-text sec-text-hd">
                                                                   <div className="title-year">
                                                                         BA
@@ -74,7 +74,7 @@ class Education extends React.Component {
                                                       </div>
                                                 </div>
                                                 <div style={{display:'inline-block', width:'100%'}}>
-                                                      <div className="float year-detail" style={{verticalAlign:'top'}}>
+                                                      <div className="float year-detail year-detail2" style={{verticalAlign:'top'}}>
                                                             <div className="section-text sec-text-hd">
                                                                   <div className="title-year">
                                                                         12th
@@ -102,7 +102,7 @@ class Education extends React.Component {
                                                       </div>
                                                 </div>
                                                 <div style={{display:'inline-block', width:'100%'}}>
-                                                      <div className="float year-detail" style={{verticalAlign:'top'}}>
+                                                      <div className="float year-detail year-detail2" style={{verticalAlign:'top'}}>
                                                             <div className="section-text sec-text-hd">
                                                                   <div className="title-year">
                                                                         10th
@@ -130,7 +130,7 @@ class Education extends React.Component {
                                                       </div>
                                                 </div>
                                                 <div style={{display:'inline-block', width:'100%'}}>
-                                                      <div className="float year-detail" style={{verticalAlign:'top'}}>
+                                                      <div className="float year-detail year-detail2" style={{verticalAlign:'top'}}>
                                                             <div className="section-text sec-text-hd">
                                                                   <div className="title-year">
                                                                         RHCE
