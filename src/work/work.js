@@ -9,7 +9,7 @@ class Work extends React.Component {
 		return(
 			<div>
 				<div className="container">
-					<div className="row">
+					<div className="row animation">
 						<div className="col-md-12">
 				        	<div className="section-title">
 				            	Work & Experiences
@@ -20,7 +20,7 @@ class Work extends React.Component {
 	            </div>
 	            <section style={{backgroundColor:'rgba(0,0,0,0.05)', paddingTop:'16px',paddingBottom:'36px', margin:'36px 0'}}>
 		            <div className="container">
-						<div className="row">
+						<div className="row animation">
 				            <div className="col-md-12">
 					            <div className="section-text-block">
 					            	<div style={{display:'inline-block', width:'100%'}}>
