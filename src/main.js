@@ -12,14 +12,14 @@ import Contact from './contact/contact';
 const Main = () => (
   <main style={{marginTop:'60px'}}>
     <Switch>
-      <Route exact path='/' component={Home}/>
-      <Route path='/home' component={Home}/>
-      <Route path='/about' component={About}/>
-      <Route path='/skill' component={Skill}/>
-      <Route path='/work' component={Work}/>
-      <Route path='/education' component={Education}/>
-      <Route path='/gallery' component={Gallery}/>
-      <Route path='/contact' component={Contact}/>
+      <Route exact path="/" component={Home}/>
+      <Route path="/home" component={Home}/>
+      <Route path="/about" component={About}/>
+      <Route path="/skill" component={Skill}/>
+      <Route path="/work" component={Work}/>
+      <Route path="/education" component={Education}/>
+      <Route path="/gallery" component={Gallery}/>
+      <Route path="/contact" component={Contact}/>
     </Switch>
   </main>
 )

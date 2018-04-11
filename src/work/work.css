@@ -1,4 +1,10 @@
-p span{font-weight: 600;}
+p span{font-weight: 600; color: #9cadb5;}
+h3{
+  color: #3e5561 !important;
+  font-family:  'Roboto', sans-serif !important;
+  text-transform: uppercase;
+  font-size: 18px !important;
+}
 ul{padding-left: 16px;}
 li{
 	color: #3e5561;
@@ -17,6 +23,7 @@ li{
 	-webkit-box-shadow: 0px 0px 5px 1px #ccc; 
     -moz-box-shadow:    0px 0px 5px 1px #ccc; 
 	box-shadow:         0px 0px 5px 1px #ccc;
+	border: 16px solid #fff;
 }
 .image-block img{
 	width: 100%;
@@ -24,6 +31,26 @@ li{
 }
 .pc-only{display: inline-block;}
 .mobile-only{display: none;}
+.title-year{
+	font-size: 18pt;
+	font-weight: 400;
+	color: #9cadb5;
+	letter-spacing: 2px;
+}
+.year-detail{width: 21%;}
+.exp-details{width: 70%;}
+.section-text h2 {
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 6px;
+	color: #3e5561;
+}
+.section-text p{margin-bottom: 4px;}
+.section-text p span{
+	color: #9cadb5;
+	font-weight:400;
+	font-size: 14px;
+}
 @media all and (max-width: 768px){
 	.block-wrapper{text-align: center;}
 	.image-block{
@@ -38,6 +65,9 @@ li{
 		list-style: none;
     	margin-bottom: 8px;
 	}
+	.year-detail, .exp-details{width: 100%;}
+	.sec-text-hd{padding-bottom: 0 !important;}
+	.sec-text{padding: 8px 16px 24px !important; margin-top: 0px;}
 	.mobile-only{display: inline-block;}
 	.pc-only{display: none;}
 }

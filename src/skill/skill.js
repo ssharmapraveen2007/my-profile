@@ -17,7 +17,7 @@ class Skill extends React.Component {
 			    </div>
 			    <section style={{backgroundColor:'rgba(0,0,0,0.05)', paddingTop:'16px',paddingBottom:'36px', margin:'36px 0'}}>
 			    	<div className="container">
-			    		<div className="row">
+			    		<div className="row animation">
 			    			<div className="col-md-4" style={{textAlign:'center'}}>
 			    				<span className="skill-icon"><i className="fa fa-code"></i></span>
 			    				<h2 style={{fontWeight:'400'}}>Development &<br/><span style={{fontWeight:'600'}}>Animation</span></h2>
@@ -38,13 +38,13 @@ class Skill extends React.Component {
 			    	</div>
 			    </section>
 			    <section style={{paddingTop:'48px', paddingBottom:'48px'}}>
-			    	<div className="container">
+			    	<div className="container animation">
 			    		<div className="row">
-			    			<div className="col-md-12">
+			    			<div className="col-md-12" style={{marginBottom:'32px'}}>
 			    				<h2>Developmet & Animation</h2>
 			    			</div>
-			    			<div className="col-md-9">
-			    				<div className="skill-strength-wrapper" style={{marginTop:'32px'}}>
+			    			<div className="col-md-6">
+			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">HTML 5</div>
 			    					<div className="skill-strength-bar">
 		    						    <div className='progress'>
@@ -134,6 +134,8 @@ class Skill extends React.Component {
 										</div>
 			    					</div>
 			    				</div>
+		    				</div>
+			    			<div className="col-md-6">
 			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">JavaScript</div>
 			    					<div className="skill-strength-bar">
@@ -210,13 +212,13 @@ class Skill extends React.Component {
 			    					</div>
 			    				</div>
 			    			</div>
-			    			<div className="col-md-12">
+			    			<div className="col-md-12" style={{marginBottom:'32px'}}>
 			    				<div style={{paddingTop:'64px'}}>
 			    					<h2>Vector Design</h2>
 			    				</div>
 			    			</div>
-			    			<div className="col-md-9">
-			    				<div className="skill-strength-wrapper" style={{marginTop:'32px'}}>
+			    			<div className="col-md-6">
+			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">Adobe Photoshop</div>
 			    					<div className="skill-strength-bar">
 		    						    <div className='progress'>
@@ -246,6 +248,8 @@ class Skill extends React.Component {
 										</div>
 			    					</div>
 			    				</div>
+		    				</div>
+			    			<div className="col-md-6">
 			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">MS Paint</div>
 			    					<div className="skill-strength-bar">
@@ -261,13 +265,14 @@ class Skill extends React.Component {
 										</div>
 			    					</div>
 			    				</div>
-		    				</div><div className="col-md-12">
+		    				</div>
+		    				<div className="col-md-12" style={{marginBottom:'32px'}}>
 			    				<div style={{paddingTop:'64px'}}>
 			    					<h2>Email Solution</h2>
 			    				</div>
 			    			</div>
-			    			<div className="col-md-9">
-			    				<div className="skill-strength-wrapper" style={{marginTop:'32px'}}>
+			    			<div className="col-md-6">
+			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">Python</div>
 			    					<div className="skill-strength-bar">
 		    						    <div className='progress'>
@@ -297,6 +302,8 @@ class Skill extends React.Component {
 										</div>
 			    					</div>
 			    				</div>
+		    				</div>
+			    			<div className="col-md-6">
 			    				<div className="skill-strength-wrapper">
 			    					<div className="skill-title">CRON JObs</div>
 			    					<div className="skill-strength-bar">

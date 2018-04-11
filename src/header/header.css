@@ -8,7 +8,10 @@
 	background-image: none !important;
 }
 .navbar-nav{margin-top: 7px !important; margin-left: 64px !important; float: right !important;}
-.navbar-nav > li > a, .navbar-nav > li > a > a{
+.navbar-nav > li{
+	display: inline-block;
+}
+.navbar-nav > li > a{
 	color: #fff !important;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300 !important;
@@ -17,7 +20,7 @@
 	text-transform: uppercase;
 	opacity: 0.8;
 }
-.navbar-nav > li > a.active, .navbar-nav > li > a > a.active{opacity: 1.0;}
+.navbar-nav > li > a.active{opacity: 1.0;}
 .navbar > .container .navbar-brand{
 	background: #cacaca;
 	color: #3e5561 !important;

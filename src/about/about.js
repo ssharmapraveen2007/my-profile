@@ -6,7 +6,7 @@ class About extends React.Component {
    render() {
       return (
       	<div>
-			<div className="container">
+			<div className="container animation">
 				<div className="row">
 			    	<div>
 			        	<div className="section-title">

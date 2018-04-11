@@ -12,7 +12,7 @@ class Home extends React.Component {
       			<div className="container">
 	            	<div className="box" style={{margin:'3% 0'}}>
 	                	<div className="row">
-	                    	<div className="float text-wrapper">
+	                    	<div className="float text-wrapper animation">
 	                        	<div className="tex-box">
 	                            	<div className="logo-text">Praveen Kumar</div>
 	                            	<div className="logo-sub-text">UI Lead</div>

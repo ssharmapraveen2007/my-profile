@@ -1,0 +1,29 @@
+.title-year{
+	font-size: 18pt;
+	font-weight: 400;
+	color: #9cadb5;
+	letter-spacing: 2px;
+}
+.year-detail{width: 15%;}
+.exp-details{width: 70%;}
+.section-text h2 {
+	font-weight: 600;
+	margin-top: 0;
+	margin-bottom: 6px;
+	color: #3e5561;
+}
+.section-text p{margin-bottom: 4px;}
+.section-text p span{
+	color: #9cadb5;
+	font-weight:400;
+	font-size: 14px;
+}
+.section-text p span.ttl{
+	font-weight:600;
+	color: #3e5561;
+	margin-right: 4px;
+	font-size: 16px;
+}
+@media all and (max-width: 768px){
+	.year-detail, .exp-details{width: 100%;}
+}
