@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './home.css';
 import me from './me.png';
 import SocialMediaLink from '../socialMedia/mediaLink';
+import resume from '../about/resume.pdf';
 
 
 class Home extends React.Component {
@@ -20,6 +21,9 @@ class Home extends React.Component {
 	                            <div className="intro-text">
 	                            	Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for unforgettable IT based companies.	
 	                            </div>
+	                            <div className="btn-block">
+				            		<a href={resume} target="_blank" className="btn-filled">Download resume</a>
+				            	</div>
 	                            <div>
 	                            	<SocialMediaLink />
 	                            </div>

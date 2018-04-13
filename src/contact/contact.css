@@ -1,16 +1,33 @@
-button > div > div, button > div > div > span{
+button > div > div, button > div > div > span, .form-submit-btn {
 	background-color: #000 !important;
     padding: 6px 48px;
     border-radius: 4px !important;
     overflow: hidden;
     height: 48px !important;
+    color: #fff;
+    border: 0 none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 button{height: auto !important;}
 a{
 	font-weight: 600 !important;
 	color: #637e8c !important;
 }
+.ct-box{
+	border-radius: 16px;
+	background-color: rgba(0, 0, 0, 0.05);
+	padding: 24px;
+}
 
 @media all and (max-width: 768px){
 	.mobile-top-space{padding-top: 16px;}
+	.ct-box{
+		border-radius: 0px;
+		padding: 16px;
+	}
+	a{
+		font-weight: 400 !important;
+	}
 }

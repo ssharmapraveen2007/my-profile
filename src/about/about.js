@@ -1,5 +1,6 @@
 import React, { component } from 'react';
 import './about.css';
+import resume from './resume.pdf';
 
 
 class About extends React.Component {
@@ -29,7 +30,9 @@ class About extends React.Component {
 			                Experience using industry grade photo editing software such as Adobe Photoshop CS6, Adobe Illustrator and MS PAINT.
 			                Excellent interpersonal skills, and exceptional ability to handle multiple tasks simultaneously while communicating clearly and concisely with fellow project members. 
 			                Exceptional aptitude for collaborating with project members of diverse disciplines in distributed environments. 
-			            	<div className="btn-block"><a href="#" className="btn-filled">Download resume</a></div>
+			            	<div className="btn-block">
+			            		<a href={resume} target="_blank" className="btn-filled">Download resume</a>
+			            	</div>
 		                </div>
 			        </div>
 			    </div>
