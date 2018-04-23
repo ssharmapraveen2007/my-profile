@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import './work.css';
+import ScrollAnimation from 'react-animate-on-scroll';
 import Magicpin from './magicpin.png';
 import Partner from './magicpin-partner.png';
+import Educare from '../assets/images/educare-screen.png';
+import Mehrasons from '../assets/images/Mehrasons.png';
+import Dewmark from '../assets/images/Dewmark.png';
 
 
 class Work extends React.Component {
 	render() {
+		const width = window.innerWidth;
 		return(
 			<div>
 				<div className="container">
@@ -86,12 +91,17 @@ class Work extends React.Component {
 	            <div className="container">
 					<div className="row">
 			            <div className="col-md-12">
+			            	<ScrollAnimation animateIn="fadeIn">
 			            	<div className="block-wrapper">
-			            		<div className="float pc-only">
-			            			<div className="image-block">
-			            				<img src={Magicpin} alt="Samast Technologies Pvt Ltd(Magicpin)" />
-			            			</div>
-			            		</div>
+			            		{
+			            			width > 768 && 
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Magicpin} alt="Samast Technologies Pvt Ltd(Magicpin)" />
+				            			</div>
+				            		</div> 
+			            		}
+			            		
 			            		<div className="float text-block ">
 			            			<div className="right-text">
 				            			<h3>Samast Technologies Pvt Ltd(Magicpin)</h3>
@@ -109,12 +119,16 @@ class Work extends React.Component {
 				            			</div>
 			            			</div>
 			            		</div>
-		            			<div className="float mobile-only">
-			            			<div className="image-block">
-			            				<img src={Magicpin} alt="Samast Technologies Pvt Ltd(Magicpin)" />
-			            			</div>
-			            		</div>
+			            		{ width <= 768 &&
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Magicpin} alt="Samast Technologies Pvt Ltd(Magicpin)" />
+				            			</div>
+				            		</div>
+			            		}
 			            	</div>
+			            	</ScrollAnimation>
+			            	<ScrollAnimation animateIn="fadeIn">
 			            	<div className="block-wrapper">
 			            		<div className="float text-block ">
 			            			<div className="left-text">
@@ -140,6 +154,114 @@ class Work extends React.Component {
 			            			</div>
 			            		</div>
 			            	</div>
+			            	</ScrollAnimation>
+			            	<ScrollAnimation animateIn="fadeIn">
+			            	<div className="block-wrapper">
+			            		{
+			            			width > 768 && 
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Educare} alt="Educare" />
+				            			</div>
+				            		</div> 
+			            		}
+			            		<div className="float text-block ">
+			            			<div className="right-text">
+				            			<h3>Tanya's English Institute(Educare)</h3>
+				            			<p>The Educare(Tanya’s English Institute) is a language training institute. It is successfully run since 15 years in Ghaziabad (UP). From last two years winning Education Excellence Award for best language training institute in Ghaziabad.
+It was a good learning experience to work with a reputed client like Tanya’s English Institute
+</p>
+				            			<p><span>Skills used</span></p>
+				            			<ul>
+				            				<li>HTML5, CSS3, Bootstrap, Media query and Font Awesome for small generic icons.</li>
+											<li>PHP and Google reCaptcha</li>
+											<li>Team size: 2 peoples</li>
+				            			</ul>
+				            			<div className="know-more">
+				            				<a href="#">
+				            					Know more
+				            					<span className="icon"><i className="fa fa-long-arrow-right"></i></span>
+				            				</a>
+				            			</div>
+			            			</div>
+			            		</div>
+			            		{ width <= 768 &&
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Educare} alt="Educare" />
+				            			</div>
+				            		</div>
+			            		}
+			            	</div>
+			            	</ScrollAnimation>
+			            	<ScrollAnimation animateIn="fadeIn">
+			            	</ScrollAnimation>
+			            	<ScrollAnimation animateIn="fadeIn">
+			            	<div className="block-wrapper">
+			            		<div className="float text-block ">
+			            			<div className="left-text">
+				            			<h3>Mehrasons Jewellers</h3>
+				            			<p>The Mehra Family has jewellery showrooms since pre-partition in Lahore. Mehrasons Jewellers is one of the most recognized brands in India’s Gems and Jewellery industry from a long time. It was a good learning experience to work with a reputed client like Mehrasons Jewellers.</p>
+				            			<p><span>Skills used</span></p>
+				            			<ul>
+				            				<li>HTML5, CSS3, Bootstrap, Media query and  jQuery</li>
+											<li>Team size: 4 peoples</li>
+				            			</ul>
+				            			<div className="know-more">
+				            				<a href="#">
+				            					Know more
+				            					<span className="icon"><i className="fa fa-long-arrow-right"></i></span>
+				            				</a>
+				            			</div>
+			            			</div>
+			            		</div>
+			            		<div className="float">
+			            			<div className="image-block">
+			            				<img src={Mehrasons} alt="Mehrasons Jewellers" />
+			            			</div>
+			            		</div>
+			            	</div>
+			            	</ScrollAnimation>
+			            	<ScrollAnimation animateIn="fadeIn">
+			            	<div className="block-wrapper">
+			            		{
+			            			width > 768 && 
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Dewmark} alt="Dewmark" />
+				            			</div>
+				            		</div> 
+			            		}
+			            		<div className="float text-block ">
+			            			<div className="right-text">
+				            			<h3>Dewmark INC</h3>
+				            			<p>Dewmark  INC is recognized as one of the reputed buying house doing business for over 10 years. The agency specializes in product development, coordination & communication, online & post production inspections, etc.
+It is a good learning experience to work with a reputed client like Dewmark  INC. I am a part of a team of 2 as a designer.
+</p>
+				            			<p><span>Skills used</span></p>
+				            			<ul>
+				            				<li>HTML5, CSS3, Bootstrap, Media query and  jQuery</li>
+											<li>PHP and Google reCaptcha</li>
+											<li>Adobe Photoshop For UI Design</li>
+											<li>Team size: 2 peoples</li>
+				            			</ul>
+				            			<div className="know-more">
+				            				<a href="#">
+				            					Know more
+				            					<span className="icon"><i className="fa fa-long-arrow-right"></i></span>
+				            				</a>
+				            			</div>
+			            			</div>
+			            		</div>
+			            		{ width <= 768 &&
+			            			<div className="float">
+				            			<div className="image-block">
+				            				<img src={Dewmark} alt="Dewmark" />
+				            			</div>
+				            		</div>
+			            		}
+			            	</div>
+			            	</ScrollAnimation>
 			            </div>
 					</div>
 				</div>
@@ -147,4 +269,5 @@ class Work extends React.Component {
 		);
 	}
 } 
+
 export default Work;
