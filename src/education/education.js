@@ -7,9 +7,11 @@ class Education extends React.Component {
             <div>
             	<div className="container">
             		<div className="row  animation">
-            			<div className="section-title">
-			            	Education & Qualification
-		            	</div>
+                              <div className="col-md-12">
+                  			<div className="section-title">
+      			            	Education & Qualification
+      		            	</div>
+                              </div>
             		</div>
             	</div>
                   <section style={{backgroundColor:'rgba(0,0,0,0.05)', paddingTop:'16px',paddingBottom:'36px', margin:'36px 0'}}>

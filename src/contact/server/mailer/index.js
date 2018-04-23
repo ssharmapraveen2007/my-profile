@@ -10,7 +10,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const send = ({ firstName, lastName, phoneNumber, emailId, text }) => {
-  const from = firstName && emailId ? `${firstName} <${emailId}>` : `${firstName || emailId}`
+  const from = firstName && emailId ? '${firstName} <${emailId}>' : '${firstName || emailId}'
   const message = {
     from,
     to: 'ssharmapraveen2007@gmail.com',

@@ -10,8 +10,10 @@ class Contact extends React.Component {
 			<div>
 				<div className="container">
 					<div className="row">
-						<div className="section-title">
-			            	Contact
+						<div className="col-md-12">
+							<div className="section-title">
+				            	Contact
+			            	</div>
 		            	</div>
 		            	<div className="col-md-12 section-text-block">
 				        	<div className="section-text" style={{position:'relative'}}>

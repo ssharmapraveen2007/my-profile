@@ -1,25 +1,42 @@
 import React from 'react';
 import TextField from 'material-ui/TextField';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import server from './server';
 
 class TextFieldExampleSimple extends React.Component{
+  constructor() {
+    super();
+    this.handleSubmit = this.handleSubmit.bind(this);
+  }
+
+  handleSubmit(event) {
+    event.preventDefault();
+    this.setState({ type: 'info', message: 'Sending…' });
+    const data = new FormData(event.target);
+    for (var value of data.values()) {
+       console.log(value); 
+    }
+  }
+
   render() {
     return(
       <div>
           <h2>Please send your query !</h2>
           <MuiThemeProvider>
-            <form autoComplete="off" method="POST" action="/contact">
+            <form autoComplete="off" method="POST" action="http://localhost:3000/contact/validate.php">
               <TextField
                 required
                 hintText="First Name"
                 floatingLabelText="First Name"
                 name="firstName"
+                id="firstName"
                 label="Required"
               /><br/>
               <TextField
                 hintText="Last Name"
                 floatingLabelText="Last Name"
                 name="lastName"
+                id="lastName"
               /><br/>
               <TextField
                 required
@@ -28,6 +45,7 @@ class TextFieldExampleSimple extends React.Component{
                 type="number"
                 label="Required"
                 name="phoneNumber"
+                id= "phoneNumber"
               /><br/>
               <TextField
                 required
@@ -36,6 +54,7 @@ class TextFieldExampleSimple extends React.Component{
                 type="email"
                 label="Required"
                 name="emailId"
+                id= "emailId"
               /><br/>
               <TextField
                 hintText="Message"
@@ -43,6 +62,7 @@ class TextFieldExampleSimple extends React.Component{
                 multiline
                 rowsMax="4"
                 name="message"
+                id= "message"
               /><br/><br/>
               <input
                 type="submit"

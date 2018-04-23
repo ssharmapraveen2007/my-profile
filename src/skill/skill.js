@@ -8,7 +8,7 @@ class Skill extends React.Component {
 			<div>
 				<div className="container">
 					<div className="row">
-				    	<div>
+				    	<div className="col-md-12">
 				        	<div className="section-title">
 				            	Skills
 				            </div>
